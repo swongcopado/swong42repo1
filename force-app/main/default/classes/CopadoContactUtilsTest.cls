@@ -9,5 +9,15 @@ public class CopadoContactUtilsTest {
 		Integer calculatedAge = CopadoContactUtilities.getAge(contact);
 		System.assertEquals(expectedAge, calculatedAge, 'expectedAge:'+expectedAge+',calculatedAge:'+calculatedAge);        
     }
+    
+    @isTest
+    public static void testGetAgeWithNullBirthdate(){
+        Copado_Contact__c contact = new Copado_Contact__c(Name='Test Subject');
+        Date dt = Date.today();
+        Integer expectedAge = 0;
+		Integer calculatedAge = CopadoContactUtilities.getAge(contact);
+		System.assertEquals(expectedAge, calculatedAge, 'expectedAge:'+expectedAge+',calculatedAge:'+calculatedAge);        
+    }
+    
 
 }
