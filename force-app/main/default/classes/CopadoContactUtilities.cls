@@ -10,6 +10,11 @@ public class CopadoContactUtilities {
 	        Integer days = dt.daysBetween(contact.Birthdate__c);
             return Integer.valueOf(days/365);
         }
+        
+        // Added code here that is not tested to reduce the level of code coverage for US-0000006
+        if (contact.Name == null) {
+            contact.Name = 'This is never run';
+        }
 
         return 0;
     }
