@@ -10,7 +10,7 @@ public class CopadoContactUtilities {
 	        Integer days = dt.daysBetween(contact.Birthdate__c);
             return Integer.valueOf(days/365);
         }
-        String dev1DummyLine = contact.Name;	//US-0000004 in DEV1
+
         return 0;
     }
 
