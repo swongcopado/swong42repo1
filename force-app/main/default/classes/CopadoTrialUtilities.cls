@@ -9,6 +9,10 @@ public class CopadoTrialUtilities {
             System.setPassword(u.Id, passwd);
             System.debug('DONE: ' + u.Id);
         }
+        
+        // Added code for US-0000008
+        String aString = 'This line of code does nothing';
+        String bString = 'Did it to simulate a change';
     }
 
 }
