@@ -15,6 +15,9 @@ public class CopadoContactUtilities {
         if (contact.Name == null) {
             contact.Name = 'This is never run';
         }
+        
+        // Added code here for US-0000007 - Phantom Conflict issue
+        String dummyString = 'This is a redundant line of code';
 
         return 0;
     }
