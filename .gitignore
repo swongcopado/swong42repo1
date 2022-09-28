@@ -11,6 +11,7 @@
 **/classes/cmcSf__*
 **/triggers/cmcSf__*
 **/pages/cmcSf__*
+.copado/
 
 
 # Excluded Metadata Types - Performance / Data-like
