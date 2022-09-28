@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <!-- just some dummy code here -->
+    <h1>Copado DX Testing</h1>
+	
+</aura:component>
