@@ -11,6 +11,7 @@
 **/classes/cmcSf__*
 **/triggers/cmcSf__*
 **/pages/cmcSf__*
+.copado/
 
 
 # Excluded Metadata Types - Performance / Data-like
@@ -34,6 +35,7 @@
 # Salesforce dev
 .sfdx/
 .localdevserver/
+.sf/
 
 # LWC VSCode autocomplete
 jsconfig.json

@@ -1,3 +1,7 @@
 **/classes/*__*
 **/triggers/*__*
 **/pages/*__*
+
+**/jsconfig.json
+
+**/.eslintrc.json
