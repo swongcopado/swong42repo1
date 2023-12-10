@@ -1,25 +1,24 @@
 {
-    "packageDirectories":[
-        {
-            "path":"force-app",
-            "versionName":"",
-            "versionNumber":"",
-            "dependencies":[],
-            "default":true,
-            "package":""
-        },
-        {
-            "path":"myDXTestApp",
-            "versionName":"",
-            "versionNumber":"",
-            "dependencies":[],
-            "default":false,
-            "package":""
-        }
-    ],
-    "namespace":"",
-    "sfdcLoginUrl":"https://login.salesforce.com",
-    "sourceApiVersion":"55.0",
-    "packageAliases":{}
-
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "versionName": "",
+      "versionNumber": "",
+      "dependencies": [],
+      "default": true,
+      "package": ""
+    },
+    {
+      "path": "myDXTestApp",
+      "versionName": "",
+      "versionNumber": "",
+      "dependencies": [],
+      "default": false,
+      "package": ""
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageAliases": {}
 }
